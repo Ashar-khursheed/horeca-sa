@@ -66,9 +66,9 @@ function App() {
         </div>
 
         {/* Main content */}
-        <div className="flex flex-col-reverse lg:flex-row items-center gap-10 w-full">
+      <div className="flex flex-col lg:flex-row items-center gap-10 w-full">
           <div className="flex-1 text-center lg:text-left">
-            <h1 className="text-3xl md:text-1xl font-bold text-black mb-4">
+          <h1 className="text-xl md:text-3xl font-bold text-black mb-4">
               One Destination. 100,000+ Products. <br /> Launching Soon in Saudi Arabia.
             </h1>
 
