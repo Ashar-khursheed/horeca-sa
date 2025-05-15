@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import Logo from "./assets/logo/logo.jpg";
 
 function App() {
@@ -51,13 +51,13 @@ function App() {
   {/* Hide only the text on mobile */}
   <span className="text-sm font-medium hidden sm:inline">Follow Us</span>
   <div className="flex space-x-6">
-    <a href="#" className="text-green-800 text-lg">
+    <a href="https://www.facebook.com/horecastore.ae" target="_blank" className="text-green-800 text-lg">
       <FaFacebookF />
     </a>
-    <a href="#" className="text-green-800 text-lg">
-      <FaTwitter />
+    <a href="https://www.linkedin.com/company/horecastore" target="_blank" className="text-green-800 text-lg">
+      <FaLinkedinIn />
     </a>
-    <a href="#" className="text-green-800 text-lg">
+    <a href="https://www.instagram.com/horecastore.ae" target="_blank" className="text-green-800 text-lg">
       <FaInstagram />
     </a>
   </div>
@@ -68,8 +68,8 @@ function App() {
         {/* Main content */}
         <div className="flex flex-col-reverse lg:flex-row items-center gap-10 w-full">
           <div className="flex-1 text-center lg:text-left">
-            <h1 className="text-3xl md:text-4xl font-bold text-black mb-4">
-              Bulk Buying, Best Prices, Simple Procurement, Launching Soon,
+            <h1 className="text-3xl md:text-1xl font-bold text-black mb-4">
+              One Destination. 100,000+ Products. <br /> Launching Soon in Saudi Arabia.
             </h1>
 
             <p className="text-gray-600 mb-4">
@@ -91,13 +91,24 @@ function App() {
 
             <p className="text-gray-600 mb-4">
               <strong>Have Inquiries or Questions?</strong>
+              <br /><br /><u>
+                Hotel & Restaurant Project Inquiries
+              </u>    
+              <br /><a href="mailto:aslambasha@horecastore.sa" className="text-green-800 font-medium ml-1 hover:underline">
+              Aslam Basha
+              </a><br />
+              General Manager - Project & Sales
+            
               <br />
-              For New Hotel & Restaurant Project:
-              <br /> Contact our GM - Project & Sales -
-              <a href="mailto:aslambasha@horecastore.sa" className="text-green-800 font-medium ml-1 hover:underline">
-                Mr. Aslam Basha
+              Tel : 
+               <a href="tel:+968 997 94123" className="text-green-800 font-medium ml-1 hover:underline">
+                +968 997 94123
+              </a><br />
+              Email : 
+               <a href="mailto:aslambasha@horecastore.sa" className="text-green-800 font-medium ml-1 hover:underline">
+                aslambasha@horecastore.sa
               </a>
-              <br />
+              <br /><br />
               General inquiries:
               <a href="mailto:hello@horecastore.sa" className="text-green-800 font-medium ml-1 hover:underline">
                 hello@horecastore.sa
