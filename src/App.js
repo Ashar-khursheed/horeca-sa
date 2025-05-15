@@ -42,8 +42,8 @@ function App() {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-white to-gray-50">
       {/* Outer padding to align with logo on all screen sizes */}
       <div className="w-full max-w-7xl px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20">
-        {/* Header */}
-        <div className="flex justify-between items-center mb-8">
+        {/* Header */}  
+      <div className="flex justify-between items-center mb-8 mt-5">
           <div className="text-2xl font-bold text-green-800">
             <img src={Logo} alt="Logo" className="h-[53px] w-[180px] object-contain object-left" />
           </div>
@@ -94,8 +94,8 @@ function App() {
               <br /><br /><u>
                 Hotel & Restaurant Project Inquiries
               </u>    
-              <br /><a href="mailto:aslambasha@horecastore.sa" className="text-green-800 font-medium ml-1 hover:underline">
-              Aslam Basha
+              <br /><a href="mailto:aslambasha@horecastore.sa" className="text-green-800 font-medium hover:underline">
+             <strong>Aslam Basha</strong> 
               </a><br />
               General Manager - Project & Sales
             
